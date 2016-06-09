@@ -1,4 +1,8 @@
 $(function(){
+  // logo
+  $('#logoInfo').mouseenter(function(){
+     $(this).find("ul").toggle();
+  })
 	// section 切换
 	$("aside li").click(function(){
 		var i =$(this).index()+1;

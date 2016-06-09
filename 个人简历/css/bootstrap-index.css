@@ -48,7 +48,27 @@ html,body{
 	height: 100%;
 	
 }
-
+/*logo*/
+.navbar-header #logo{
+	height: 80px;
+	/*vertical-align: top;*/
+}
+ .navbar-header #logo #logoInfo{
+ 	display: inline-block;
+ 	vertical-align: top;
+ 	overflow: hidden;
+ 
+ }
+  .navbar-header #logo img:hover{
+  	box-shadow: 0 0 20px gray;
+  }
+ .navbar-header #logo #logoInfo ul{
+ 	padding: 0;
+ }
+ .navbar-header #logo #logoInfo ul li{
+ 	list-style-type: none;
+ 	text-align: center;
+ }
 /*home*/
 section#home{
 	/*background:url(../img/home-bg.jpg) repeat;*/
