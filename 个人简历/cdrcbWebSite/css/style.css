@@ -1,0 +1,89 @@
+.clear{
+	clear:both;
+}
+
+.la{
+	position: absolute;
+	top: 149px;
+	width: 90px;
+	z-index: 1;
+	display: none;
+}
+nav{
+	width: 100%;
+	height: 152px;
+	background: url(../img/TopBodyBg.jpg);
+}
+#outer {
+	background: url(../img/TopMenuBg.jpg);
+	width: 1000px;
+	height: 152px;
+	text-align: center;
+	margin: auto;
+	font-size: 12px;
+
+}
+#topnav{
+	width: 220x;
+	height: 20px;
+	line-height: 20px;
+    float: right;
+}
+#topnav a{
+	color:white;
+	text-decoration: none;
+	padding-left:5px;
+	padding-right: 5px;
+	border-right: dotted 1px;
+
+}
+#topnav a:hover{
+	text-decoration:underline; ;
+	color: yellow;
+}
+#logo{
+	width: 347px;
+	height: 44px;
+	float: left;
+	margin-top: 45px;
+	overflow: hidden;
+	display: inline;
+}
+#logo img{
+	width: 347px;
+	height: 44px;
+}
+#buttondiv{
+	width: 1000px;
+	height: 37px;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-top: 23px;
+	overflow: hidden;
+}
+
+#buttondiv ul li{
+   display: inline-block;
+   margin:0;
+   padding: 0;
+   z-index: 0;
+}
+
+#buttondiv .changeImg:hover .la{
+	display: block;
+}
+.la ul li{
+	background-image: url(../img/navicon/MenuBbg.jpg);
+	width: 98px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+}
+.la ul li a{
+	margin-left: 7px;
+	text-decoration: none;
+	color: #000000;
+}
+.la ul li a:hover{
+	color: red;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		var ClassName = function(v){ 
+		    this.value=v; 
+		    this.getValue=function(){ 
+		        return this.value; 
+  		  } 
+		    this.setValue=function(v){ 
+		        this.value=v; 
+		    } 
+		}
+		var  objectName1 = new ClassName();
+		objectName1.setValue("hello");
+		console.log(objectName1.getValue());
+		console.log(objectName1.value);
+		var objectName2 = ClassName('b');
+		console.log(window.value);
+
+
+		var Class = { 
+		    create: function() { 
+		        return function() { 
+		            this.initialize.apply(this , arguments); 
+		        } 
+		    } 
+		} 
+			var A = Class.create(); //构造一个function返回给A.
+			console.log(A);
+
+		function test(){ 
+		   console.log(typeof arguments); 
+		    for(var i=0; i<arguments.length; i++){ 
+		        console.log(arguments[i]); 
+		    } 
+		} 
+		test("1","2","3"); 
+		test("a","b");	
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

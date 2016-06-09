@@ -1,0 +1,96 @@
+
+#mainDiv{
+	width: 1000px;
+	height: 100%;
+	margin:auto;
+}
+#ebsb{
+	width: 1000px;
+	height: 260px;
+	margin-top: 5px;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+#ebankinfo{
+	width: 230px;
+	height: 260px;
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
+/*	background:lightgreen;*/
+}
+#eblink {
+	background: #EFF5F3;
+	border:solid 1px #E3E5E0;
+	padding-bottom: 15px;
+	border-radius: 7px;
+}
+
+#eblink li{
+	text-align: center;
+    width: 200px;
+    height: 20px;
+    margin-top: 3px;
+    margin-left: 14px;
+}
+#eblink li img{
+	width: 200px;
+    height: 20px;
+}
+/*#atmaddr {
+	margin-top: 5px;
+}*/
+#atmaddr img{
+	width: 230px;
+}
+
+/*轮播图*/
+#slider{
+	height: 260px;
+	width: 504px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	overflow: hidden;
+}
+#bg_img img{
+	height: 260px;
+	width: 504px;
+}
+#bg_list{
+	position: absolute;
+	color: white;
+	font-weight:bold;
+	left: 430px;
+    top: 233px;
+}
+#bg_list li{
+	display: inline-block;
+	vertical-align: top;
+	background:#666666;
+	padding:1px 5px;
+	cursor: pointer;
+}
+#bg_list ul li:hover{
+	background:#FF6633;
+}
+#bg_list ul li.on{
+	background:#FF6633;
+}
+/*轮播图*/
+
+/*topright*/
+#business{
+	width: 250px;
+	height: 260px;
+	display: inline-block;
+	vertical-align: top;
+	background:#EFF5F3;
+}
+#daishoufei{
+	margin-left: 13px;
+    margin-top: 9px;
+}
+/*topright*

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+	<script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+	<style type="text/css">
+        .lognin_box {
+			width: 80px;
+			height: 30px;
+			background: green;
+			color: white;
+			text-align: center;
+			line-height: 30px;	
+		}
+		.show_box{
+			width: 200px;
+			height: 200px;
+			background: lightblue;
+			position: absolute;
+			display: none;
+			top: 45px;
+		}
+	</style>
+</head>
+<body>
+	  <div class="lognin_box">
+	  	    <p>登录</p>
+	  	    <div class="show_box"></div>
+	  </div>
+	    
+</body>
+<script type="text/javascript">
+	$(function(){
+		$(".lognin_box").mouseover(function(){
+	    	$(".show_box").show();
+	    	$(this).css({
+	    		"background":"#f1f1f1"
+	    	})
+	  	});
+	
+	  	$(".lognin_box").mouseout(function(){
+	    	$(".show_box").hide();
+            $(this).css({
+	    		"background":"green"
+	    	})
+	  	});
+	})
+</script>
+</html>
